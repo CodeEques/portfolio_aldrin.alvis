@@ -1,0 +1,63 @@
+body{
+    background-color: #000000;
+    
+}
+
+.developer{
+    background-color: #436775;
+
+}
+/* This Portfolio class is set for background to the main */
+.portfolio{
+    
+}
+
+#avatar{
+    background-color: #436775;
+
+}
+
+.nav li{
+    display: inline;
+    color: #87ceeb;
+
+}
+
+a:link{
+    color: #87ceeb;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    colour: #b7e1f3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+
+}
+
+.aboutMe{
+    background-color: #436775;
+
+}
+
+h2{
+    color: #87ceeb;
+}
+
+p{
+   color: #87ceeb;
+}
+
+.myProjects{
+    background-color:#436775;
+    
+}
+
+.contactMe{
+    background-color: #436775;
+
+}
