@@ -1,38 +1,54 @@
-body{
+/* setting the whole web page to black */
+body{ 
     background-color: #000000;
     
 }
 
 .developer{
     background-color: #436775;
+    color: #87ceeb;
+    text-align: center;
+
+}
+
+/* Main Heading parameters */
+h1{
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
 
 }
 /* This Portfolio class is set for background to the main */
 .portfolio{
-    
+    background-color: #000000;
 }
-
+/* Avatar parameters */
 #avatar{
     background-color: #436775;
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
+    position:relative;
+    left: 250px;
 
 }
+
+.nav{}
 
 .nav li{
     display: inline;
     color: #87ceeb;
 
 }
-
-a:link{
+/* Navigation links parameters */
+.nav ul li a{
     color: #87ceeb;
-    background-color: transparent;
-    text-decoration: none;
-}
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: light;
+    position: relative;
+    left: 350px;
 
-a:visited{
-    colour: #b7e1f3;
-    background-color: transparent;
-    text-decoration: none;
 }
 
 a:hover{
@@ -41,6 +57,11 @@ a:hover{
 
 .aboutMe{
     background-color: #436775;
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
+    padding: 20px;
+    word-wrap: normal;
 
 }
 
@@ -54,10 +75,32 @@ p{
 
 .myProjects{
     background-color:#436775;
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
+    padding: 20px;
     
+}
+
+.myProjects ul li a{
+    color:#87ceeb;
+
 }
 
 .contactMe{
     background-color: #436775;
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
+    padding: 20px;
 
+}
+
+.contactMe ul li{
+    color: #87ceeb;
+}
+
+.contactMe ul li a{
+    color: #87ceeb;
+    
 }
