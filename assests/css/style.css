@@ -5,19 +5,26 @@ body{
 }
 
 .developer{
+    display: flex;
+    align-items: center;
+    border-color:  #87ceeb;
     background-color: #436775;
     color: #87ceeb;
     text-align: center;
+    border-width: medium;
+    border-style: solid;
+    margin: 10px;
+
+
 
 }
+
+
 
 /* Main Heading parameters */
-h1{
-    border-color:  #87ceeb;
-    border-style: solid;
-    border-width: medium;
 
-}
+
+
 /* This Portfolio class is set for background to the main */
 .portfolio{
     background-color: #000000;
@@ -28,9 +35,8 @@ h1{
     border-color:  #87ceeb;
     border-style: solid;
     border-width: medium;
-    position:relative;
-    left: 250px;
-
+    margin: 0 auto;
+    display: block
 }
 
 .nav{}
@@ -56,12 +62,37 @@ a:hover{
 }
 
 .aboutMe{
+    display: flex;
+
+    margin: 10px;
     background-color: #436775;
     border-color:  #87ceeb;
     border-style: solid;
     border-width: medium;
     padding: 20px;
-    word-wrap: normal;
+    
+    align-items: center;
+
+}
+
+.aboutMe h2{
+    border-color: #87ceeb;
+    margin: 10px;
+
+}
+
+.aboutMe img{
+    border-style: solid;
+    border-width: medium;
+    border-color: #87ceeb;
+    margin: 10px;
+
+
+}
+
+.aboutMe p{
+    padding: 10px;
+    width: 100%;
 
 }
 
@@ -71,6 +102,10 @@ h2{
 
 p{
    color: #87ceeb;
+   margin: 10px;
+   width: 300px;
+
+
 }
 
 .myProjects{
