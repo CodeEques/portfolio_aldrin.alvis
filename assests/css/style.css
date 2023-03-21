@@ -1,29 +1,23 @@
 /* setting the whole web page to black */
 body{ 
     background-color: #000000;
-    
 }
 
+/* setting header parameters */
 .developer{
     display: flex;
     align-items: center;
+    justify-content: center;
     border-color:  #87ceeb;
     background-color: #436775;
     color: #87ceeb;
     text-align: center;
     border-width: medium;
     border-style: solid;
-    margin: 10px;
-
-
-
+    margin: auto;
+    min-width: 512px;
+    flex-wrap: wrap;
 }
-
-
-
-/* Main Heading parameters */
-
-
 
 /* This Portfolio class is set for background to the main */
 .portfolio{
@@ -34,13 +28,15 @@ body{
     background-color: #436775;
     border-color:  #87ceeb;
     border-style: solid;
-    border-width: medium;
-    margin: 0 auto;
-    display: block
+    border-width: medium; 
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+
 }
-
-.nav{}
-
+/* Setting background nav parameters */
 .nav li{
     display: inline;
     color: #87ceeb;
@@ -52,54 +48,49 @@ body{
     border-color:  #87ceeb;
     border-style: solid;
     border-width: light;
-    position: relative;
-    left: 350px;
-
+    
 }
-
-a:hover{
-
-}
-
+/* setting the display parameters for About Me information */
 .aboutMe{
     display: flex;
-
     margin: 10px;
     background-color: #436775;
     border-color:  #87ceeb;
     border-style: solid;
     border-width: medium;
     padding: 20px;
-    
     align-items: center;
+    min-width: 473px;
 
 }
-
 .aboutMe h2{
     border-color: #87ceeb;
     margin: 10px;
 
 }
-
 .aboutMe img{
     border-style: solid;
     border-width: medium;
     border-color: #87ceeb;
     margin: 10px;
-
+    width: 200px;
+    height: 200px;
+    /* aids in flow of presenting hover feature */
+    transition: 0.3s transform ease; 
+}
+/* enlarges image when pointer is over pic */
+.aboutMe img:hover{
+    transform: scale(1.5);
 
 }
-
 .aboutMe p{
     padding: 10px;
     width: 100%;
 
 }
-
 h2{
     color: #87ceeb;
 }
-
 p{
    color: #87ceeb;
    margin: 10px;
@@ -107,27 +98,66 @@ p{
 
 
 }
-
+/* setting display parameters for My projects */
 .myProjects{
-    background-color:#436775;
-    border-color:  #87ceeb;
-    border-style: solid;
-    border-width: medium;
-    padding: 20px;
-    
-}
-
-.myProjects ul li a{
-    color:#87ceeb;
-
-}
-
-.contactMe{
+    display: flex;
+    margin: 10px;
     background-color: #436775;
     border-color:  #87ceeb;
     border-style: solid;
     border-width: medium;
     padding: 20px;
+    align-items: center;
+    min-width: 473px;
+}
+
+.myProjects img{
+    border-style: solid;
+    border-color: #87ceeb;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s transform ease;
+
+}
+.myProjects img:hover{
+    transform: scale(1.5);
+
+}
+.myProjects ul li{
+    color:#87ceeb;
+
+}
+.myProjects ul li a{
+    color:#87ceeb;
+
+}
+/* setting display parameters for Contact information */
+.contactMe{
+    display: flex;
+    margin: 10px;
+    background-color: #436775;
+    border-color:  #87ceeb;
+    border-style: solid;
+    border-width: medium;
+    padding: 20px;
+    align-items: center;
+    min-width: 473px;
+
+}
+
+.contactMe img{
+    border-style: solid;
+    border-color: #87ceeb;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s transform ease;
+
+}
+
+.contactMe img:hover{
+    transform: scale(1.5);
 
 }
 
@@ -139,3 +169,13 @@ p{
     color: #87ceeb;
     
 }
+
+/* setting display properties on phone devices */
+@media screen and (min-width: 320) {
+    .developer {float: left;}
+    #avatar {float: left;}
+    .aboutMe {float: left;}
+    .myProjects {float: left;}
+    .contactMe {float: left;}
+}
+    
